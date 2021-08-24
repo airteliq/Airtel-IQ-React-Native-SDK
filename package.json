@@ -1,15 +1,21 @@
 {
-  "name": "enx-rtc-react-native",
-  "version": "1.6.0",
-  "description": "It is a react native component for Enablex users.",
+  "name": "videoiq-react-native",
+  "version": "1.0.0",
+  "description": "It is a react native component for videoIQ users.",
   "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airteliq/Airtel-IQ-React-Native-SDK.git"
+  },
   "keywords": [
     "react-native",
-    "enablex",
-    "enx",
+    "videoIQ",
     "webrtc",
     "ios",
     "android",
@@ -19,12 +25,12 @@
     "chat",
     "cpass"
   ],
-  "author": "enablex",
-  "license": "Vcloudx License, Version 1.1', :text => 'https://www.enablex.io/legals/tou/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/enablexer/enx-rtc-react-native.git"
+  "author": "airteliq",
+  "license": "airtelIQ License, Version 1.0', :text => ' https://www.airtel.in/mobile/terms-conditions",
+  "bugs": {
+    "url": "https://github.com/airteliq/Airtel-IQ-React-Native-SDK/issues"
   },
+  "homepage": "https://github.com/airteliq/Airtel-IQ-React-Native-SDK#readme",
   "dependencies": {
     "prop-types": "^15.6.0",
     "underscore": "^1.9.1"
